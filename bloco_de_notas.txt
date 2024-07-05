@@ -1,0 +1,28 @@
+# Criar um arquivo de texto usando o Vim
+vim arquivo.txt
+
+# Inserir texto no Vim
+# Pressione 'i' para entrar no modo de inserção e digite o texto abaixo:
+Este é um exemplo de arquivo de texto criado usando o Vim.
+Vim é um editor poderoso e altamente configurável.
+É amplamente usado por desenvolvedores e administradores de sistema.
+# Após inserir o texto, pressione 'Esc' para sair do modo de inserção.
+
+# Salvar o arquivo no Vim
+# Digite ':w' e pressione 'Enter' para salvar as alterações feitas.
+:w
+
+# Para salvar e sair:
+:wq
+# Pressione Enter após digitar ":wq"
+
+# Para forçar a saída sem salvar (se necessário):
+:q!
+# Pressione Enter após digitar ":q!"
+
+# Sair do Vim
+# Digite ':q' e pressione 'Enter' para fechar o Vim e voltar ao prompt de comando.
+:q
+
+# Abrir arquivo no Vim no modo de leitura
+vim -R arquivo.txt
